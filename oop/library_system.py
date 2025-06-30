@@ -21,9 +21,9 @@ class Library:
 		self.books = []
 	def add_book(self, book: Book):
 		self.books.append(book)
-		print(f"Added '{book.title}' to the library.")
+		
 	def list_books(self):
-		print("\n--- Books in the Library ---")
+		
 		if not self.books:
 			print("The library is currently empty.")
 			return
