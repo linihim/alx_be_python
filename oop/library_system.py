@@ -29,4 +29,4 @@ class Library:
 			return
 		for book in self.books:
 			print(book)
-			print("----------------------------")
+
